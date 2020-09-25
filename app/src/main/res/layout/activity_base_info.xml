@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<!--    <TextView-->
+<!--        android:id="@+id/tv_show_service"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintRight_toRightOf="parent"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        android:text="联系客服申诉"/>-->
+
+<!--    <Button-->
+<!--        android:id="@+id/btn_confirm"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="48dp"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintRight_toRightOf="parent"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/tv_show_service"-->
+<!--        android:text="确定"/>-->
+
+<!--    <ScrollView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="0dp"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/btn_confirm">-->
+
+<!--       <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--           android:layout_width="match_parent"-->
+<!--           android:layout_height="match_parent"-->
+<!--           android:paddingLeft="20dp"-->
+<!--           android:paddingRight="20dp">-->
+
+<!--           &lt;!&ndash;           标题begin&ndash;&gt;-->
+<!--           <TextView-->
+<!--               android:id="@+id/tv_title_base_info"-->
+<!--               android:layout_width="wrap_content"-->
+<!--               android:layout_height="wrap_content"-->
+<!--               app:layout_constraintLeft_toLeftOf="parent"-->
+<!--               app:layout_constraintRight_toRightOf="parent"-->
+<!--               app:layout_constraintTop_toTopOf="parent"-->
+<!--               android:textColor="@color/md_black_1000"-->
+<!--               android:textSize="18sp"-->
+<!--               android:text="基本信息"/>-->
+
+<!--           <ImageView-->
+<!--               android:layout_width="wrap_content"-->
+<!--               android:layout_height="20dp"-->
+<!--               app:layout_constraintLeft_toLeftOf="parent"-->
+<!--               app:layout_constraintTop_toTopOf="parent"-->
+<!--               android:src="@mipmap/ic_launcher"/>-->
+
+<!--           <TextView-->
+<!--               android:layout_width="wrap_content"-->
+<!--               android:layout_height="wrap_content"-->
+<!--               app:layout_constraintRight_toRightOf="parent"-->
+<!--               app:layout_constraintTop_toTopOf="parent"-->
+<!--               android:text="跳过"/>-->
+<!--           &lt;!&ndash;           标题end&ndash;&gt;-->
+
+<!--           &lt;!&ndash;           车牌号码begin&ndash;&gt;-->
+<!--           <TextView-->
+<!--               android:id="@+id/tv_carno"-->
+<!--               android:layout_width="wrap_content"-->
+<!--               android:layout_height="wrap_content"-->
+<!--               android:layout_marginTop="10dp"-->
+<!--               app:layout_constraintTop_toBottomOf="@+id/tv_title_base_info"-->
+<!--               app:layout_constraintLeft_toLeftOf="parent"-->
+<!--               android:text="车牌号码"/>-->
+<!--           -->
+<!--           <TextView-->
+<!--               android:layout_width="wrap_content"-->
+<!--               android:layout_height="wrap_content"-->
+<!--               android:layout_marginLeft="10dp"-->
+<!--               android:layout_marginTop="10dp"-->
+<!--               app:layout_constraintTop_toBottomOf="@+id/tv_title_base_info"-->
+<!--               app:layout_constraintLeft_toRightOf="@+id/tv_carno"-->
+<!--               android:text="鄂"/>-->
+
+<!--           <ImageView-->
+<!--               android:id="@+id/iv_scan"-->
+<!--               android:layout_width="20dp"-->
+<!--               android:layout_height="20dp"-->
+<!--               app:layout_constraintTop_toTopOf="@+id/tv_carno"-->
+<!--               app:layout_constraintRight_toRightOf="parent"-->
+<!--               android:src="@mipmap/ic_launcher"/>-->
+
+<!--           <EditText-->
+<!--               android:id="@+id/et_carno_input"-->
+<!--               android:layout_width="wrap_content"-->
+<!--               android:layout_height="wrap_content"-->
+<!--               app:layout_constraintTop_toTopOf="@+id/iv_scan"-->
+<!--               app:layout_constraintRight_toLeftOf="@+id/iv_scan"-->
+<!--               android:background="null"-->
+<!--               android:textSize="14sp"-->
+<!--               android:hint="请输入"/>-->
+<!--           &lt;!&ndash;           车牌号码 end&ndash;&gt;-->
+
+<!--           &lt;!&ndash;           车牌类型begin&ndash;&gt;-->
+<!--           <TextView-->
+<!--               android:id="@+id/tv_car_type"-->
+<!--               android:layout_width="wrap_content"-->
+<!--               android:layout_height="wrap_content"-->
+<!--               android:layout_marginTop="10dp"-->
+<!--               app:layout_constraintTop_toBottomOf="@+id/tv_carno"-->
+<!--               app:layout_constraintLeft_toLeftOf="parent"-->
+<!--               android:text="车牌类型"/>-->
+
+<!--           <ImageView-->
+<!--               android:id="@+id/iv_car_type_show"-->
+<!--               android:layout_width="20dp"-->
+<!--               android:layout_height="20dp"-->
+<!--               app:layout_constraintTop_toTopOf="@+id/tv_car_type"-->
+<!--               app:layout_constraintRight_toRightOf="parent"-->
+<!--               android:src="@mipmap/ic_launcher"/>-->
+
+<!--           <TextView-->
+<!--               android:id="@+id/et_car_type_select"-->
+<!--               android:layout_width="wrap_content"-->
+<!--               android:layout_height="wrap_content"-->
+<!--               app:layout_constraintTop_toTopOf="@+id/iv_car_type_show"-->
+<!--               app:layout_constraintRight_toLeftOf="@+id/iv_car_type_show"-->
+<!--               android:background="null"-->
+<!--               android:hint="请选择"/>-->
+<!--           &lt;!&ndash;           车辆类型 end&ndash;&gt;-->
+
+<!--           &lt;!&ndash;           车牌识别代号begin&ndash;&gt;-->
+<!--           <TextView-->
+<!--               android:id="@+id/tv_car_vin"-->
+<!--               android:layout_width="wrap_content"-->
+<!--               android:layout_height="wrap_content"-->
+<!--               android:layout_marginTop="10dp"-->
+<!--               app:layout_constraintTop_toBottomOf="@+id/tv_car_type"-->
+<!--               app:layout_constraintLeft_toLeftOf="parent"-->
+<!--               android:text="车辆识别代号(VIN)"/>-->
+
+<!--           <EditText-->
+<!--               android:id="@+id/et_car_vin"-->
+<!--               android:layout_width="wrap_content"-->
+<!--               android:layout_height="wrap_content"-->
+<!--               app:layout_constraintTop_toTopOf="@+id/tv_car_vin"-->
+<!--               app:layout_constraintRight_toRightOf="parent"-->
+<!--               android:background="null"-->
+<!--               android:textSize="14sp"-->
+<!--               android:hint="请输入"/>-->
+<!--           &lt;!&ndash;           车辆识别代号 end&ndash;&gt;-->
+
+<!--           &lt;!&ndash;           车牌所有人begin&ndash;&gt;-->
+<!--           <TextView-->
+<!--               android:id="@+id/tv_car_person"-->
+<!--               android:layout_width="wrap_content"-->
+<!--               android:layout_height="wrap_content"-->
+<!--               android:layout_marginTop="10dp"-->
+<!--               app:layout_constraintTop_toBottomOf="@+id/tv_car_vin"-->
+<!--               app:layout_constraintLeft_toLeftOf="parent"-->
+<!--               android:text="所有人"/>-->
+
+<!--           <EditText-->
+<!--               android:id="@+id/et_car_person"-->
+<!--               android:layout_width="wrap_content"-->
+<!--               android:layout_height="wrap_content"-->
+<!--               app:layout_constraintTop_toTopOf="@+id/tv_car_person"-->
+<!--               app:layout_constraintRight_toRightOf="parent"-->
+<!--               android:background="null"-->
+<!--               android:textSize="14sp"-->
+<!--               android:hint="请输入"/>-->
+<!--           &lt;!&ndash;           车辆所有人 end&ndash;&gt;-->
+
+<!--           &lt;!&ndash;           使用性质begin&ndash;&gt;-->
+<!--           <TextView-->
+<!--               android:id="@+id/tv_car_use"-->
+<!--               android:layout_width="wrap_content"-->
+<!--               android:layout_height="wrap_content"-->
+<!--               android:layout_marginTop="10dp"-->
+<!--               app:layout_constraintTop_toBottomOf="@+id/tv_car_person"-->
+<!--               app:layout_constraintLeft_toLeftOf="parent"-->
+<!--               android:text="车牌类型"/>-->
+
+<!--           <ImageView-->
+<!--               android:id="@+id/iv_car_use_show"-->
+<!--               android:layout_width="20dp"-->
+<!--               android:layout_height="20dp"-->
+<!--               app:layout_constraintTop_toTopOf="@+id/tv_car_use"-->
+<!--               app:layout_constraintRight_toRightOf="parent"-->
+<!--               android:src="@mipmap/ic_launcher"/>-->
+
+<!--           <TextView-->
+<!--               android:id="@+id/et_car_use_select"-->
+<!--               android:layout_width="wrap_content"-->
+<!--               android:layout_height="wrap_content"-->
+<!--               app:layout_constraintTop_toTopOf="@+id/iv_car_use_show"-->
+<!--               app:layout_constraintRight_toLeftOf="@+id/iv_car_use_show"-->
+<!--               android:background="null"-->
+<!--               android:hint="请选择"/>-->
+<!--           &lt;!&ndash;           使用性质 end&ndash;&gt;-->
+
+
+<!--           &lt;!&ndash;           品牌型号begin&ndash;&gt;-->
+<!--           <TextView-->
+<!--               android:id="@+id/tv_car_brand"-->
+<!--               android:layout_width="wrap_content"-->
+<!--               android:layout_height="wrap_content"-->
+<!--               android:layout_marginTop="10dp"-->
+<!--               app:layout_constraintTop_toBottomOf="@+id/tv_car_use"-->
+<!--               app:layout_constraintLeft_toLeftOf="parent"-->
+<!--               android:text="品牌型号"/>-->
+
+<!--           <EditText-->
+<!--               android:id="@+id/et_car_brand"-->
+<!--               android:layout_width="wrap_content"-->
+<!--               android:layout_height="wrap_content"-->
+<!--               app:layout_constraintTop_toTopOf="@+id/tv_car_brand"-->
+<!--               app:layout_constraintRight_toRightOf="parent"-->
+<!--               android:background="null"-->
+<!--               android:textSize="14sp"-->
+<!--               android:hint="请输入"/>-->
+<!--           &lt;!&ndash;           品牌型号 end&ndash;&gt;-->
+
+<!--           &lt;!&ndash;           发动机号码begin&ndash;&gt;-->
+<!--           <TextView-->
+<!--               android:id="@+id/tv_car_engine"-->
+<!--               android:layout_width="wrap_content"-->
+<!--               android:layout_height="wrap_content"-->
+<!--               android:layout_marginTop="10dp"-->
+<!--               app:layout_constraintTop_toBottomOf="@+id/tv_car_brand"-->
+<!--               app:layout_constraintLeft_toLeftOf="parent"-->
+<!--               android:text="发动机号码"/>-->
+
+<!--           <EditText-->
+<!--               android:id="@+id/et_car_engine"-->
+<!--               android:layout_width="wrap_content"-->
+<!--               android:layout_height="wrap_content"-->
+<!--               app:layout_constraintTop_toTopOf="@+id/tv_car_engine"-->
+<!--               app:layout_constraintRight_toRightOf="parent"-->
+<!--               android:background="null"-->
+<!--               android:textSize="14sp"-->
+<!--               android:hint="请输入"/>-->
+<!--           &lt;!&ndash;           发动机号码 end&ndash;&gt;-->
+
+<!--       </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+<!--    </ScrollView>-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

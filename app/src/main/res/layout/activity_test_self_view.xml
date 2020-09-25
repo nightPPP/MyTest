@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.example.mytest.MenuItemLayout
+        android:id="@+id/menu_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:divide_line_style="0"
+        app:icon_reference="@mipmap/ic_launcher"
+        app:title_text="个人中心" />
+
+    <com.example.mytest.MenuItemLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:divide_line_style="1"
+        app:hint_text="hinthint"
+        app:icon_reference="@mipmap/ic_launcher"
+        app:title_text="我的收藏" />
+
+    <com.example.mytest.MenuItemLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:divide_line_style="2"
+        app:icon_reference="@mipmap/ic_launcher"
+        app:title_text="我的关注" />
+
+    <com.example.mytest.LineTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
