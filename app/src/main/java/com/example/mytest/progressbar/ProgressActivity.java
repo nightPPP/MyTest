@@ -12,6 +12,7 @@ import com.example.mytest.R;
 
 /**
  * 绘制进度
+ * @author liuy
  */
 public class ProgressActivity extends AppCompatActivity {
 
