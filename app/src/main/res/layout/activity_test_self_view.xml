@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <com.example.mytest.MenuItemLayout
+    <com.example.mytest.myselfView.MenuItemLayout
         android:id="@+id/menu_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -13,7 +13,7 @@
         app:icon_reference="@mipmap/ic_launcher"
         app:title_text="个人中心" />
 
-    <com.example.mytest.MenuItemLayout
+    <com.example.mytest.myselfView.MenuItemLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:divide_line_style="1"
@@ -21,15 +21,19 @@
         app:icon_reference="@mipmap/ic_launcher"
         app:title_text="我的收藏" />
 
-    <com.example.mytest.MenuItemLayout
+    <com.example.mytest.myselfView.MenuItemLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:divide_line_style="2"
         app:icon_reference="@mipmap/ic_launcher"
         app:title_text="我的关注" />
 
-    <com.example.mytest.LineTextView
+    <com.example.mytest.myselfView.LineTextView
         android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.example.mytest.myselfView.RectView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
 </LinearLayout>

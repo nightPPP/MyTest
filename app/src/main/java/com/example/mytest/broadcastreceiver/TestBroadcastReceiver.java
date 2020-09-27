@@ -1,4 +1,4 @@
-package com.example.mytest;
+package com.example.mytest.broadcastreceiver;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -10,6 +10,8 @@ import android.widget.TextView;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.mytest.R;
 
 public class TestBroadcastReceiver extends AppCompatActivity {
     @Override

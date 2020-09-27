@@ -1,4 +1,4 @@
-package com.example.mytest;
+package com.example.mytest.service;
 
 import android.content.ComponentName;
 import android.content.Intent;
@@ -9,6 +9,8 @@ import android.view.View;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.mytest.R;
 
 /**
  *

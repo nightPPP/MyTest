@@ -1,4 +1,4 @@
-package com.example.mytest;
+package com.example.mytest.myselfView;
 
 import android.content.Context;
 import android.graphics.Canvas;
