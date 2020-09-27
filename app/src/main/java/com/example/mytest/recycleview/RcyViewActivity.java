@@ -35,7 +35,6 @@ public class RcyViewActivity extends AppCompatActivity {
 
         RcyViewAdapter adapter = new RcyViewAdapter(this, list);
 
-
         LinearLayoutManager layoutManager = new LinearLayoutManager(this);
         layoutManager.setOrientation(LinearLayoutManager.VERTICAL);
         recyclerView.setLayoutManager(layoutManager);
