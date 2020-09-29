@@ -40,6 +40,5 @@ public class RcyViewActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(layoutManager);
         recyclerView.setAdapter(adapter);
 
-
     }
 }

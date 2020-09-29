@@ -1,6 +1,10 @@
 apply plugin: 'com.android.application'
 
 android {
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
     compileSdkVersion 29
     buildToolsVersion "30.0.1"
 
@@ -63,4 +67,7 @@ dependencies {
 //    https://links.jianshu.com/go?to=https%3A%2F%2Fgithub.com%2Fskydoves%2FTransformationLayout
     implementation "com.github.skydoves:transformationlayout:1.0.4"
 
+
+    implementation 'com.squareup.okhttp3:okhttp:3.14.2'
+    implementation 'com.squareup.okio:okio:1.17.4'
 }
