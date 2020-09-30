@@ -13,7 +13,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".progressbar.ProgressActivity">
+        <activity android:name=".myselfView.TestMyselfViewActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
