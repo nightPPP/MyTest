@@ -5,7 +5,7 @@
     android:layout_height="wrap_content"
     android:orientation="horizontal">
 
-    <com.example.mytest.myselfView.MenuItemLayout
+    <com.example.mytest.myselfview.MenuItemLayout
         android:id="@+id/menu_item"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>

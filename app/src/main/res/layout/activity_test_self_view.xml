@@ -37,7 +37,7 @@
 <!--        android:layout_height="wrap_content"/>-->
 
 
-    <com.example.mytest.myselfView.PaintTest.BasisView
+    <com.example.mytest.myselfview.painttest.PaintPath
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 

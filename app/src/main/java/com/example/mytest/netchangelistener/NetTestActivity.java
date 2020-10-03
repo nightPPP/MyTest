@@ -1,4 +1,4 @@
-package com.example.mytest.netChangeListener;
+package com.example.mytest.netchangelistener;
 
 import android.os.Bundle;
 import android.widget.TextView;

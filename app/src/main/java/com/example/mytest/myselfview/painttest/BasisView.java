@@ -1,4 +1,4 @@
-package com.example.mytest.myselfView.PaintTest;
+package com.example.mytest.myselfview.painttest;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -26,6 +26,8 @@ public class BasisView extends View {
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
 
+        canvas.drawColor(Color.BLACK);
+
         Paint paint = new Paint();
         paint.setColor(Color.RED);
         paint.setStyle(Paint.Style.FILL);
@@ -38,5 +40,6 @@ public class BasisView extends View {
 
         paint.setColor(Color.YELLOW);
         canvas.drawCircle(190, 200, 50, paint);
+
     }
 }

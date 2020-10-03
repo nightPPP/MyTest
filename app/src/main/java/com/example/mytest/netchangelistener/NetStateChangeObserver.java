@@ -1,4 +1,4 @@
-package com.example.mytest.netChangeListener;
+package com.example.mytest.netchangelistener;
 
 public interface NetStateChangeObserver {
     void onNetDisconnected();
