@@ -54,6 +54,16 @@ public class PaintPath extends View {
         path.close();
 
         canvas.drawPath(path, paint);
+
+        paint.setColor(Color.RED);
+        paint.setStyle(Paint.Style.FILL_AND_STROKE);
+        paint.setStrokeWidth(50);
+
+        canvas.drawLine(500, 500, 600,600,paint);
+
+        canvas.drawPoint(100,500,paint);
+
+
     }
 }
 

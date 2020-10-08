@@ -9,7 +9,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.mytest.R;
-import com.example.mytest.myselfview.MenuItemLayout;
+import com.example.mytest.myselfview.painttest.MenuItemLayout;
 
 import java.util.List;
 
